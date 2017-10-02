@@ -29,16 +29,39 @@ public class Main {
 		 */
 		
 		// unesite broj i izraèunajte njegov kvadrat (scanner) !
-		Scanner scanner = new Scanner(System.in);//novi objekt pomoæu konstruktora klase Scanner
+		Scanner scanner = new Scanner(System.in);// novi objekt pomoæu
+													// konstruktora klase
+													// Scanner
 		System.out.println("Unesite broj");
 		int uneseniBroj = scanner.nextInt();
 		scanner.close();
-		System.out.println("unesen je broj "+uneseniBroj+" kvadrat broja = "+Math.pow(uneseniBroj, 2));
+		//System.out.println("unesen je broj " + uneseniBroj + " kvadrat broja = " + Math.pow(uneseniBroj, 2));
+
+		// if primjer
 		
-		//if primjer
+		/*
+		boolean punoljetan = uneseniBroj >= 18;
+		boolean paran = (uneseniBroj % 2) == 0;
+		if (punoljetan) {
+			System.out.println("Punoljetan");
+		} else {
+			System.out.println("nije punoljetan");
+		}
 		
-		if(uneseniBroj>0){
-			System.out.println("Broj " + uneseniBroj + " je veæi od 0");
+		//System.out.println("Kraj programa");
+		*/
+		
+		
+		//ispis ocjene sukladno broju
+		
+		switch (uneseniBroj) {
+		case 1: System.out.println("nedovoljan");break;
+		case 2: System.out.println("dovoljan");break;
+		case 3: System.out.println("dobar");break;
+		case 4: System.out.println("vrlo dobar");break;
+		case 5: System.out.println("odlièan");break;
+		default:System.out.println("nije ocjena!");
+		break;
 		}
 		
 		
