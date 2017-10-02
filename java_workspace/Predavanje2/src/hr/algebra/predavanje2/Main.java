@@ -31,8 +31,15 @@ public class Main {
 		// unesite broj i izraèunajte njegov kvadrat (scanner) !
 		Scanner scanner = new Scanner(System.in);//novi objekt pomoæu konstruktora klase Scanner
 		System.out.println("Unesite broj");
-		int uneseniBroj = scanner.nextInt();		
+		int uneseniBroj = scanner.nextInt();
+		scanner.close();
 		System.out.println("unesen je broj "+uneseniBroj+" kvadrat broja = "+Math.pow(uneseniBroj, 2));
+		
+		//if primjer
+		
+		if(uneseniBroj>0){
+			System.out.println("Broj " + uneseniBroj + " je veæi od 0");
+		}
 		
 		
 		
