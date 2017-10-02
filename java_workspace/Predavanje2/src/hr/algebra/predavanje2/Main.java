@@ -182,7 +182,7 @@ public class Main {
 				
 		Scanner scanner = new Scanner(System.in);
 		double a = scanner.nextDouble();
-		double cijeli= Math.floor(a);		
+		int cijeli= (int)a;		
 		double decimalni = a-cijeli; 
 			
 		
