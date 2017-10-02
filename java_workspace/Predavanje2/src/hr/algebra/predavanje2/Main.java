@@ -16,7 +16,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		
+		//novi kod
 		// matematièke funkcije i konstante
 		
 		
@@ -31,7 +31,7 @@ public class Main {
 		// unesite broj i izraèunajte njegov kvadrat (scanner) !
 		Scanner scanner = new Scanner(System.in);//novi objekt pomoæu konstruktora klase Scanner
 		System.out.println("Unesite broj");
-		int uneseniBroj = scanner.nextInt();
+		int uneseniBroj = scanner.nextInt();		
 		System.out.println("unesen je broj "+uneseniBroj+" kvadrat broja = "+Math.pow(uneseniBroj, 2));
 		
 		
